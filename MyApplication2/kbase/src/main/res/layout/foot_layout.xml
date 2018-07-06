@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/mainpage"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:drawableTop="@drawable/main_dra"/>
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kSort"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:drawableTop="@drawable/sort_dra"/>
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kBase"
+            android:button="@null"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/base_dra"/>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kMBase"
+            android:button="@null"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/mase_dra"/>
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/space"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/space_dra"/>
+
+
+    </RadioGroup>
+</LinearLayout>
